@@ -36,6 +36,17 @@ func fileContents(file string) ([]byte, error) {
 	return raw, nil
 }
 
+func (c ContinentRepository) FindAllContinents() ([]entities.Continent, error) {
+
+	response := []entities.Continent{}
+
+	for _, continent := range c.continents {
+		response = append(response, continent)
+	}
+
+	return response, nil
+}
+
 func (c ContinentRepository) FindByISO(ISO string) (entities.Continent, error) {
 
 	for _, continent := range c.continents {

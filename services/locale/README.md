@@ -15,8 +15,11 @@ PR's welcome for more geographic elements.
 
 ### Continents
 
-> Get Continent with ISO
+> Find Continent with ISO
+> Find all Continents
 
 ### Countries
 
-> Get Countries in Continent
+> Find Country with ISO
+> Find all Countries
+> Find Countries in Continent

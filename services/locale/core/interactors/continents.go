@@ -38,3 +38,27 @@ func (interactor ContinentInteractor) FindByISO(request requests.FindContinentBy
 	// return a Page response from the entity
 	return continent.Response(), nil
 }
+
+func (interactor ContinentInteractor) FindAllContinents(request requests.FindAllContinents) ([]responses.Continent, error) {
+
+	var continent entities.Continent
+	var continents []responses.Continent
+
+	// validate the incoming request
+	if err := continent.Validate(request); err != nil {
+		return continents, err
+	}
+
+	// finished validation, find the continents
+	matchedContinents, err := interactor.repository.FindAllContinents()
+	if err != nil {
+		return continents, err
+	}
+
+	for _, matchedContinent := range matchedContinents {
+		continents = append(continents, matchedContinent.Response())
+	}
+
+	// return a Page response from the entity
+	return continents, nil
+}

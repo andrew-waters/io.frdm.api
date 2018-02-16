@@ -53,6 +53,10 @@ func main() {
 	if err != nil {
 		spew.Dump(err)
 	}
+	allContinents, err := frdm.Continents.FindAllContinents(requests.FindAllContinents{})
+	if err != nil {
+		spew.Dump(err)
+	}
 
 	spew.Printf("Continent with ISO `%s`:\n", continentISO)
 	spew.Dump(continent)
@@ -65,6 +69,9 @@ func main() {
 
 	spew.Printf("%d countries in total :\n", len(allCountries))
 	// spew.Dump(allCountries)
+
+	spew.Printf("%d continents in total :\n", len(allContinents))
+	spew.Dump(allContinents)
 }
 
 // API is the external struct to intefacing with all service entities
