@@ -1,0 +1,9 @@
+package: github.com/andrew-waters/frdm
+import:
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson

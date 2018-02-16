@@ -1,0 +1,37 @@
+[
+    {
+        "iso": "AF",
+        "name": "Africa",
+        "slug": "africa"
+    },
+    {
+        "iso": "AS",
+        "name": "Asia",
+        "slug": "asia"
+    },
+    {
+        "iso": "EU",
+        "name": "Europe",
+        "slug": "europe"
+    },
+    {
+        "iso": "NA",
+        "name": "North America",
+        "slug": "north-america"
+    },
+    {
+        "iso": "SA",
+        "name": "South America",
+        "slug": "south-america"
+    },
+    {
+        "iso": "OC",
+        "name": "Oceania",
+        "slug": "oceania"
+    },
+    {
+        "iso": "AN",
+        "name": "Antarctica",
+        "slug": "antarctica"
+    }
+]
