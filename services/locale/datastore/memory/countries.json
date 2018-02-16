@@ -1,0 +1,2043 @@
+[
+    {
+        "iso": "AF",
+        "iso3": "AFG",
+        "numcode": 4,
+        "name": "Afghanistan",
+        "slug": "afghanistan",
+        "continent": "AS"
+    },
+    {
+        "iso": "AL",
+        "iso3": "ALB",
+        "numcode": 8,
+        "name": "Albania",
+        "slug": "albania",
+        "continent": "EU"
+    },
+    {
+        "iso": "DZ",
+        "iso3": "DZA",
+        "numcode": 12,
+        "name": "Algeria",
+        "slug": "algeria",
+        "continent": "AF"
+    },
+    {
+        "iso": "AS",
+        "iso3": "ASM",
+        "numcode": 16,
+        "name": "American Samoa",
+        "slug": "american-samoa",
+        "continent": "OC"
+    },
+    {
+        "iso": "AD",
+        "iso3": "AND",
+        "numcode": 20,
+        "name": "Andorra",
+        "slug": "andorra",
+        "continent": "EU"
+    },
+    {
+        "iso": "AO",
+        "iso3": "AGO",
+        "numcode": 24,
+        "name": "Angola",
+        "slug": "angola",
+        "continent": "AF"
+    },
+    {
+        "iso": "AI",
+        "iso3": "AIA",
+        "numcode": 660,
+        "name": "Anguilla",
+        "slug": "anguilla",
+        "continent": "NA"
+    },
+    {
+        "iso": "AQ",
+        "name": "Antarctica",
+        "slug": "antarctica",
+        "continent": "AN"
+    },
+    {
+        "iso": "AG",
+        "iso3": "ATG",
+        "numcode": 28,
+        "name": "Antigua and Barbuda",
+        "slug": "antigua-and-barbuda",
+        "continent": "NA"
+    },
+    {
+        "iso": "AR",
+        "iso3": "ARG",
+        "numcode": 32,
+        "name": "Argentina",
+        "slug": "argentina",
+        "continent": "SA"
+    },
+    {
+        "iso": "AM",
+        "iso3": "ARM",
+        "numcode": 51,
+        "name": "Armenia",
+        "slug": "armenia",
+        "continent": "AS"
+    },
+    {
+        "iso": "AW",
+        "iso3": "ABW",
+        "numcode": 533,
+        "name": "Aruba",
+        "slug": "aruba",
+        "continent": "NA"
+    },
+    {
+        "iso": "AU",
+        "iso3": "AUS",
+        "numcode": 36,
+        "name": "Australia",
+        "slug": "australia",
+        "continent": "OC"
+    },
+    {
+        "iso": "AT",
+        "iso3": "AUT",
+        "numcode": 40,
+        "name": "Austria",
+        "slug": "austria",
+        "continent": "EU"
+    },
+    {
+        "iso": "AZ",
+        "iso3": "AZE",
+        "numcode": 31,
+        "name": "Azerbaijan",
+        "slug": "azerbaijan",
+        "continent": "AS"
+    },
+    {
+        "iso": "BS",
+        "iso3": "BHS",
+        "numcode": 44,
+        "name": "Bahamas",
+        "slug": "bahamas",
+        "continent": "NA"
+    },
+    {
+        "iso": "BH",
+        "iso3": "BHR",
+        "numcode": 48,
+        "name": "Bahrain",
+        "slug": "bahrain",
+        "continent": "AS"
+    },
+    {
+        "iso": "BD",
+        "iso3": "BGD",
+        "numcode": 50,
+        "name": "Bangladesh",
+        "slug": "bangladesh",
+        "continent": "AS"
+    },
+    {
+        "iso": "BB",
+        "iso3": "BRB",
+        "numcode": 52,
+        "name": "Barbados",
+        "slug": "barbados",
+        "continent": "NA"
+    },
+    {
+        "iso": "BY",
+        "iso3": "BLR",
+        "numcode": 112,
+        "name": "Belarus",
+        "slug": "belarus",
+        "continent": "EU"
+    },
+    {
+        "iso": "BE",
+        "iso3": "BEL",
+        "numcode": 56,
+        "name": "Belgium",
+        "slug": "belgium",
+        "continent": "EU"
+    },
+    {
+        "iso": "BZ",
+        "iso3": "BLZ",
+        "numcode": 84,
+        "name": "Belize",
+        "slug": "belize",
+        "continent": "NA"
+    },
+    {
+        "iso": "BJ",
+        "iso3": "BEN",
+        "numcode": 204,
+        "name": "Benin",
+        "slug": "benin",
+        "continent": "AF"
+    },
+    {
+        "iso": "BM",
+        "iso3": "BMU",
+        "numcode": 60,
+        "name": "Bermuda",
+        "slug": "bermuda",
+        "continent": "NA"
+    },
+    {
+        "iso": "BT",
+        "iso3": "BTN",
+        "numcode": 64,
+        "name": "Bhutan",
+        "slug": "bhutan",
+        "continent": "AS"
+    },
+    {
+        "iso": "BO",
+        "iso3": "BOL",
+        "numcode": 68,
+        "name": "Bolivia",
+        "slug": "bolivia",
+        "continent": "SA"
+    },
+    {
+        "iso": "BA",
+        "iso3": "BIH",
+        "numcode": 70,
+        "name": "Bosnia and Herzegovina",
+        "slug": "bosnia-and-herzegovina",
+        "continent": "EU"
+    },
+    {
+        "iso": "BW",
+        "iso3": "BWA",
+        "numcode": 72,
+        "name": "Botswana",
+        "slug": "botswana",
+        "continent": "AF"
+    },
+    {
+        "iso": "BV",
+        "name": "Bouvet Island",
+        "slug": "bouvet-island",
+        "continent": "AN"
+    },
+    {
+        "iso": "BR",
+        "iso3": "BRA",
+        "numcode": 76,
+        "name": "Brazil",
+        "slug": "brazil",
+        "continent": "SA"
+    },
+    {
+        "iso": "IO",
+        "name": "British Indian Ocean Territory",
+        "slug": "british-indian-ocean-territory",
+        "continent": "AS"
+    },
+    {
+        "iso": "BN",
+        "iso3": "BRN",
+        "numcode": 96,
+        "name": "Brunei Darussalam",
+        "slug": "brunei-darussalam",
+        "continent": "AS"
+    },
+    {
+        "iso": "BG",
+        "iso3": "BGR",
+        "numcode": 100,
+        "name": "Bulgaria",
+        "slug": "bulgaria",
+        "continent": "EU"
+    },
+    {
+        "iso": "BF",
+        "iso3": "BFA",
+        "numcode": 854,
+        "name": "Burkina Faso",
+        "slug": "burkina-faso",
+        "continent": "AF"
+    },
+    {
+        "iso": "BI",
+        "iso3": "BDI",
+        "numcode": 108,
+        "name": "Burundi",
+        "slug": "burundi",
+        "continent": "AF"
+    },
+    {
+        "iso": "KH",
+        "iso3": "KHM",
+        "numcode": 116,
+        "name": "Cambodia",
+        "slug": "cambodia",
+        "continent": "AS"
+    },
+    {
+        "iso": "CM",
+        "iso3": "CMR",
+        "numcode": 120,
+        "name": "Cameroon",
+        "slug": "cameroon",
+        "continent": "AF"
+    },
+    {
+        "iso": "CA",
+        "iso3": "CAN",
+        "numcode": 124,
+        "name": "Canada",
+        "slug": "canada",
+        "continent": "NA"
+    },
+    {
+        "iso": "CV",
+        "iso3": "CPV",
+        "numcode": 132,
+        "name": "Cape Verde",
+        "slug": "cape-verde",
+        "continent": "AF"
+    },
+    {
+        "iso": "KY",
+        "iso3": "CYM",
+        "numcode": 136,
+        "name": "Cayman Islands",
+        "slug": "cayman-islands",
+        "continent": "NA"
+    },
+    {
+        "iso": "CF",
+        "iso3": "CAF",
+        "numcode": 140,
+        "name": "Central African Republic",
+        "slug": "central-african-republic",
+        "continent": "AF"
+    },
+    {
+        "iso": "TD",
+        "iso3": "TCD",
+        "numcode": 148,
+        "name": "Chad",
+        "slug": "chad",
+        "continent": "AF"
+    },
+    {
+        "iso": "CL",
+        "iso3": "CHL",
+        "numcode": 152,
+        "name": "Chile",
+        "slug": "chile",
+        "continent": "SA"
+    },
+    {
+        "iso": "CN",
+        "iso3": "CHN",
+        "numcode": 156,
+        "name": "China",
+        "slug": "china",
+        "continent": "AS"
+    },
+    {
+        "iso": "CX",
+        "name": "Christmas Island",
+        "slug": "christmas-island",
+        "continent": "AS"
+    },
+    {
+        "iso": "CC",
+        "name": "Cocos (Keeling) Islands",
+        "slug": "cocos-keeling-islands",
+        "continent": "AS"
+    },
+    {
+        "iso": "CO",
+        "iso3": "COL",
+        "numcode": 170,
+        "name": "Colombia",
+        "slug": "colombia",
+        "continent": "SA"
+    },
+    {
+        "iso": "KM",
+        "iso3": "COM",
+        "numcode": 174,
+        "name": "Comoros",
+        "slug": "comoros",
+        "continent": "AF"
+    },
+    {
+        "iso": "CG",
+        "iso3": "COG",
+        "numcode": 178,
+        "name": "Congo",
+        "slug": "congo",
+        "continent": "AF"
+    },
+    {
+        "iso": "CD",
+        "iso3": "COD",
+        "numcode": 180,
+        "name": "Congo, the Democratic Republic of the",
+        "slug": "congo-the-democratic-republic-of-the",
+        "continent": "AF"
+    },
+    {
+        "iso": "CK",
+        "iso3": "COK",
+        "numcode": 184,
+        "name": "Cook Islands",
+        "slug": "cook-islands",
+        "continent": "OC"
+    },
+    {
+        "iso": "CR",
+        "iso3": "CRI",
+        "numcode": 188,
+        "name": "Costa Rica",
+        "slug": "costa-rica",
+        "continent": "NA"
+    },
+    {
+        "iso": "CI",
+        "iso3": "CIV",
+        "numcode": 384,
+        "name": "Cote D'Ivoire",
+        "slug": "cote-d-ivoire",
+        "continent": "AF"
+    },
+    {
+        "iso": "HR",
+        "iso3": "HRV",
+        "numcode": 191,
+        "name": "Croatia",
+        "slug": "croatia",
+        "continent": "EU"
+    },
+    {
+        "iso": "CU",
+        "iso3": "CUB",
+        "numcode": 192,
+        "name": "Cuba",
+        "slug": "cuba",
+        "continent": "NA"
+    },
+    {
+        "iso": "CY",
+        "iso3": "CYP",
+        "numcode": 196,
+        "name": "Cyprus",
+        "slug": "cyprus",
+        "continent": "AS"
+    },
+    {
+        "iso": "CZ",
+        "iso3": "CZE",
+        "numcode": 203,
+        "name": "Czech Republic",
+        "slug": "czech-republic",
+        "continent": "EU"
+    },
+    {
+        "iso": "DK",
+        "iso3": "DNK",
+        "numcode": 208,
+        "name": "Denmark",
+        "slug": "denmark",
+        "continent": "EU"
+    },
+    {
+        "iso": "DJ",
+        "iso3": "DJI",
+        "numcode": 262,
+        "name": "Djibouti",
+        "slug": "djibouti",
+        "continent": "AF"
+    },
+    {
+        "iso": "DM",
+        "iso3": "DMA",
+        "numcode": 212,
+        "name": "Dominica",
+        "slug": "dominica",
+        "continent": "NA"
+    },
+    {
+        "iso": "DO",
+        "iso3": "DOM",
+        "numcode": 214,
+        "name": "Dominican Republic",
+        "slug": "dominican-republic",
+        "continent": "NA"
+    },
+    {
+        "iso": "EC",
+        "iso3": "ECU",
+        "numcode": 218,
+        "name": "Ecuador",
+        "slug": "ecuador",
+        "continent": "SA"
+    },
+    {
+        "iso": "EG",
+        "iso3": "EGY",
+        "numcode": 818,
+        "name": "Egypt",
+        "slug": "egypt",
+        "continent": "AF"
+    },
+    {
+        "iso": "SV",
+        "iso3": "SLV",
+        "numcode": 222,
+        "name": "El Salvador",
+        "slug": "el-salvador",
+        "continent": "NA"
+    },
+    {
+        "iso": "GQ",
+        "iso3": "GNQ",
+        "numcode": 226,
+        "name": "Equatorial Guinea",
+        "slug": "equatorial-guinea",
+        "continent": "AF"
+    },
+    {
+        "iso": "ER",
+        "iso3": "ERI",
+        "numcode": 232,
+        "name": "Eritrea",
+        "slug": "eritrea",
+        "continent": "AF"
+    },
+    {
+        "iso": "EE",
+        "iso3": "EST",
+        "numcode": 233,
+        "name": "Estonia",
+        "slug": "estonia",
+        "continent": "EU"
+    },
+    {
+        "iso": "ET",
+        "iso3": "ETH",
+        "numcode": 231,
+        "name": "Ethiopia",
+        "slug": "ethiopia",
+        "continent": "AF"
+    },
+    {
+        "iso": "FK",
+        "iso3": "FLK",
+        "numcode": 238,
+        "name": "Falkland Islands (Malvinas)",
+        "slug": "falkland-islands-malvinas-",
+        "continent": "SA"
+    },
+    {
+        "iso": "FO",
+        "iso3": "FRO",
+        "numcode": 234,
+        "name": "Faroe Islands",
+        "slug": "faroe-islands",
+        "continent": "EU"
+    },
+    {
+        "iso": "FJ",
+        "iso3": "FJI",
+        "numcode": 242,
+        "name": "Fiji",
+        "slug": "fiji",
+        "continent": "OC"
+    },
+    {
+        "iso": "FI",
+        "iso3": "FIN",
+        "numcode": 246,
+        "name": "Finland",
+        "slug": "finland",
+        "continent": "EU"
+    },
+    {
+        "iso": "FR",
+        "iso3": "FRA",
+        "numcode": 250,
+        "name": "France",
+        "slug": "france",
+        "continent": "EU"
+    },
+    {
+        "iso": "GF",
+        "iso3": "GUF",
+        "numcode": 254,
+        "name": "French Guiana",
+        "slug": "french-guiana",
+        "continent": "SA"
+    },
+    {
+        "iso": "PF",
+        "iso3": "PYF",
+        "numcode": 258,
+        "name": "French Polynesia",
+        "slug": "french-polynesia",
+        "continent": "OC"
+    },
+    {
+        "iso": "TF",
+        "name": "French Southern Territories",
+        "slug": "french-southern-territories",
+        "continent": "AN"
+    },
+    {
+        "iso": "GA",
+        "iso3": "GAB",
+        "numcode": 266,
+        "name": "Gabon",
+        "slug": "gabon",
+        "continent": "AF"
+    },
+    {
+        "iso": "GM",
+        "iso3": "GMB",
+        "numcode": 270,
+        "name": "Gambia",
+        "slug": "gambia",
+        "continent": "AF"
+    },
+    {
+        "iso": "GE",
+        "iso3": "GEO",
+        "numcode": 268,
+        "name": "Georgia",
+        "slug": "georgia",
+        "continent": "AS"
+    },
+    {
+        "iso": "DE",
+        "iso3": "DEU",
+        "numcode": 276,
+        "name": "Germany",
+        "slug": "germany",
+        "continent": "EU"
+    },
+    {
+        "iso": "GH",
+        "iso3": "GHA",
+        "numcode": 288,
+        "name": "Ghana",
+        "slug": "ghana",
+        "continent": "AF"
+    },
+    {
+        "iso": "GI",
+        "iso3": "GIB",
+        "numcode": 292,
+        "name": "Gibraltar",
+        "slug": "gibraltar",
+        "continent": "EU"
+    },
+    {
+        "iso": "GR",
+        "iso3": "GRC",
+        "numcode": 300,
+        "name": "Greece",
+        "slug": "greece",
+        "continent": "EU"
+    },
+    {
+        "iso": "GL",
+        "iso3": "GRL",
+        "numcode": 304,
+        "name": "Greenland",
+        "slug": "greenland",
+        "continent": "NA"
+    },
+    {
+        "iso": "GD",
+        "iso3": "GRD",
+        "numcode": 308,
+        "name": "Grenada",
+        "slug": "grenada",
+        "continent": "NA"
+    },
+    {
+        "iso": "GP",
+        "iso3": "GLP",
+        "numcode": 312,
+        "name": "Guadeloupe",
+        "slug": "guadeloupe",
+        "continent": "NA"
+    },
+    {
+        "iso": "GU",
+        "iso3": "GUM",
+        "numcode": 316,
+        "name": "Guam",
+        "slug": "guam",
+        "continent": "OC"
+    },
+    {
+        "iso": "GT",
+        "iso3": "GTM",
+        "numcode": 320,
+        "name": "Guatemala",
+        "slug": "guatemala",
+        "continent": "NA"
+    },
+    {
+        "iso": "GN",
+        "iso3": "GIN",
+        "numcode": 324,
+        "name": "Guinea",
+        "slug": "guinea",
+        "continent": "AF"
+    },
+    {
+        "iso": "GW",
+        "iso3": "GNB",
+        "numcode": 624,
+        "name": "Guinea-Bissau",
+        "slug": "guinea-bissau",
+        "continent": "AF"
+    },
+    {
+        "iso": "GY",
+        "iso3": "GUY",
+        "numcode": 328,
+        "name": "Guyana",
+        "slug": "guyana",
+        "continent": "SA"
+    },
+    {
+        "iso": "HT",
+        "iso3": "HTI",
+        "numcode": 332,
+        "name": "Haiti",
+        "slug": "haiti",
+        "continent": "NA"
+    },
+    {
+        "iso": "HM",
+        "name": "Heard Island and Mcdonald Islands",
+        "slug": "heard-island-and-mcdonald-islands",
+        "continent": "AN"
+    },
+    {
+        "iso": "VA",
+        "iso3": "VAT",
+        "numcode": 336,
+        "name": "Holy See (Vatican City State)",
+        "slug": "holy-see-vatican-city-state-",
+        "continent": "EU"
+    },
+    {
+        "iso": "HN",
+        "iso3": "HND",
+        "numcode": 340,
+        "name": "Honduras",
+        "slug": "honduras",
+        "continent": "NA"
+    },
+    {
+        "iso": "HK",
+        "iso3": "HKG",
+        "numcode": 344,
+        "name": "Hong Kong",
+        "slug": "hong-kong",
+        "continent": "AS"
+    },
+    {
+        "iso": "HU",
+        "iso3": "HUN",
+        "numcode": 348,
+        "name": "Hungary",
+        "slug": "hungary",
+        "continent": "EU"
+    },
+    {
+        "iso": "IS",
+        "iso3": "ISL",
+        "numcode": 352,
+        "name": "Iceland",
+        "slug": "iceland",
+        "continent": "EU"
+    },
+    {
+        "iso": "IN",
+        "iso3": "IND",
+        "numcode": 356,
+        "name": "India",
+        "slug": "india",
+        "continent": "AS"
+    },
+    {
+        "iso": "ID",
+        "iso3": "IDN",
+        "numcode": 360,
+        "name": "Indonesia",
+        "slug": "indonesia",
+        "continent": "AS"
+    },
+    {
+        "iso": "IR",
+        "iso3": "IRN",
+        "numcode": 364,
+        "name": "Iran, Islamic Republic of",
+        "slug": "iran-islamic-republic-of",
+        "continent": "AS"
+    },
+    {
+        "iso": "IQ",
+        "iso3": "IRQ",
+        "numcode": 368,
+        "name": "Iraq",
+        "slug": "iraq",
+        "continent": "AS"
+    },
+    {
+        "iso": "IE",
+        "iso3": "IRL",
+        "numcode": 372,
+        "name": "Ireland",
+        "slug": "ireland",
+        "continent": "EU"
+    },
+    {
+        "iso": "IL",
+        "iso3": "ISR",
+        "numcode": 376,
+        "name": "Israel",
+        "slug": "israel",
+        "continent": "AS"
+    },
+    {
+        "iso": "IT",
+        "iso3": "ITA",
+        "numcode": 380,
+        "name": "Italy",
+        "slug": "italy",
+        "continent": "EU"
+    },
+    {
+        "iso": "JM",
+        "iso3": "JAM",
+        "numcode": 388,
+        "name": "Jamaica",
+        "slug": "jamaica",
+        "continent": "NA"
+    },
+    {
+        "iso": "JP",
+        "iso3": "JPN",
+        "numcode": 392,
+        "name": "Japan",
+        "slug": "japan",
+        "continent": "AS"
+    },
+    {
+        "iso": "JO",
+        "iso3": "JOR",
+        "numcode": 400,
+        "name": "Jordan",
+        "slug": "jordan",
+        "continent": "AS"
+    },
+    {
+        "iso": "KZ",
+        "iso3": "KAZ",
+        "numcode": 398,
+        "name": "Kazakhstan",
+        "slug": "kazakhstan",
+        "continent": "AS"
+    },
+    {
+        "iso": "KE",
+        "iso3": "KEN",
+        "numcode": 404,
+        "name": "Kenya",
+        "slug": "kenya",
+        "continent": "AF"
+    },
+    {
+        "iso": "KI",
+        "iso3": "KIR",
+        "numcode": 296,
+        "name": "Kiribati",
+        "slug": "kiribati",
+        "continent": "OC"
+    },
+    {
+        "iso": "KP",
+        "iso3": "PRK",
+        "numcode": 408,
+        "name": "Korea, Democratic People's Republic of",
+        "slug": "korea-democratic-people-s-republic-of",
+        "continent": "AS"
+    },
+    {
+        "iso": "KR",
+        "iso3": "KOR",
+        "numcode": 410,
+        "name": "Korea, Republic of",
+        "slug": "korea-republic-of",
+        "continent": "AS"
+    },
+    {
+        "iso": "KW",
+        "iso3": "KWT",
+        "numcode": 414,
+        "name": "Kuwait",
+        "slug": "kuwait",
+        "continent": "AS"
+    },
+    {
+        "iso": "KG",
+        "iso3": "KGZ",
+        "numcode": 417,
+        "name": "Kyrgyzstan",
+        "slug": "kyrgyzstan",
+        "continent": "AS"
+    },
+    {
+        "iso": "LA",
+        "iso3": "LAO",
+        "numcode": 418,
+        "name": "Lao People's Democratic Republic",
+        "slug": "lao-people-s-democratic-republic",
+        "continent": "AS"
+    },
+    {
+        "iso": "LV",
+        "iso3": "LVA",
+        "numcode": 428,
+        "name": "Latvia",
+        "slug": "latvia",
+        "continent": "EU"
+    },
+    {
+        "iso": "LB",
+        "iso3": "LBN",
+        "numcode": 422,
+        "name": "Lebanon",
+        "slug": "lebanon",
+        "continent": "AS"
+    },
+    {
+        "iso": "LS",
+        "iso3": "LSO",
+        "numcode": 426,
+        "name": "Lesotho",
+        "slug": "lesotho",
+        "continent": "AF"
+    },
+    {
+        "iso": "LR",
+        "iso3": "LBR",
+        "numcode": 430,
+        "name": "Liberia",
+        "slug": "liberia",
+        "continent": "AF"
+    },
+    {
+        "iso": "LY",
+        "iso3": "LBY",
+        "numcode": 434,
+        "name": "Libyan Arab Jamahiriya",
+        "slug": "libyan-arab-jamahiriya",
+        "continent": "AF"
+    },
+    {
+        "iso": "LI",
+        "iso3": "LIE",
+        "numcode": 438,
+        "name": "Liechtenstein",
+        "slug": "liechtenstein",
+        "continent": "EU"
+    },
+    {
+        "iso": "LT",
+        "iso3": "LTU",
+        "numcode": 440,
+        "name": "Lithuania",
+        "slug": "lithuania",
+        "continent": "EU"
+    },
+    {
+        "iso": "LU",
+        "iso3": "LUX",
+        "numcode": 442,
+        "name": "Luxembourg",
+        "slug": "luxembourg",
+        "continent": "EU"
+    },
+    {
+        "iso": "MO",
+        "iso3": "MAC",
+        "numcode": 446,
+        "name": "Macao",
+        "slug": "macao",
+        "continent": "AS"
+    },
+    {
+        "iso": "MK",
+        "iso3": "MKD",
+        "numcode": 807,
+        "name": "Macedonia, the Former Yugoslav Republic of",
+        "slug": "macedonia-the-former-yugoslav-republic-of",
+        "continent": "EU"
+    },
+    {
+        "iso": "MG",
+        "iso3": "MDG",
+        "numcode": 450,
+        "name": "Madagascar",
+        "slug": "madagascar",
+        "continent": "AF"
+    },
+    {
+        "iso": "MW",
+        "iso3": "MWI",
+        "numcode": 454,
+        "name": "Malawi",
+        "slug": "malawi",
+        "continent": "AF"
+    },
+    {
+        "iso": "MY",
+        "iso3": "MYS",
+        "numcode": 458,
+        "name": "Malaysia",
+        "slug": "malaysia",
+        "continent": "AS"
+    },
+    {
+        "iso": "MV",
+        "iso3": "MDV",
+        "numcode": 462,
+        "name": "Maldives",
+        "slug": "maldives",
+        "continent": "AS"
+    },
+    {
+        "iso": "ML",
+        "iso3": "MLI",
+        "numcode": 466,
+        "name": "Mali",
+        "slug": "mali",
+        "continent": "AF"
+    },
+    {
+        "iso": "MT",
+        "iso3": "MLT",
+        "numcode": 470,
+        "name": "Malta",
+        "slug": "malta",
+        "continent": "EU"
+    },
+    {
+        "iso": "MH",
+        "iso3": "MHL",
+        "numcode": 584,
+        "name": "Marshall Islands",
+        "slug": "marshall-islands",
+        "continent": "OC"
+    },
+    {
+        "iso": "MQ",
+        "iso3": "MTQ",
+        "numcode": 474,
+        "name": "Martinique",
+        "slug": "martinique",
+        "continent": "NA"
+    },
+    {
+        "iso": "MR",
+        "iso3": "MRT",
+        "numcode": 478,
+        "name": "Mauritania",
+        "slug": "mauritania",
+        "continent": "AF"
+    },
+    {
+        "iso": "MU",
+        "iso3": "MUS",
+        "numcode": 480,
+        "name": "Mauritius",
+        "slug": "mauritius",
+        "continent": "AF"
+    },
+    {
+        "iso": "MX",
+        "iso3": "MEX",
+        "numcode": 484,
+        "name": "Mexico",
+        "slug": "mexico",
+        "continent": "NA"
+    },
+    {
+        "iso": "FM",
+        "iso3": "FSM",
+        "numcode": 583,
+        "name": "Micronesia, Federated States of",
+        "slug": "micronesia-federated-states-of",
+        "continent": "OC"
+    },
+    {
+        "iso": "MD",
+        "iso3": "MDA",
+        "numcode": 498,
+        "name": "Moldova, Republic of",
+        "slug": "moldova-republic-of",
+        "continent": "EU"
+    },
+    {
+        "iso": "MC",
+        "iso3": "MCO",
+        "numcode": 492,
+        "name": "Monaco",
+        "slug": "monaco",
+        "continent": "EU"
+    },
+    {
+        "iso": "MN",
+        "iso3": "MNG",
+        "numcode": 496,
+        "name": "Mongolia",
+        "slug": "mongolia",
+        "continent": "AS"
+    },
+    {
+        "iso": "MS",
+        "iso3": "MSR",
+        "numcode": 500,
+        "name": "Montserrat",
+        "slug": "montserrat",
+        "continent": "NA"
+    },
+    {
+        "iso": "MA",
+        "iso3": "MAR",
+        "numcode": 504,
+        "name": "Morocco",
+        "slug": "morocco",
+        "continent": "AF"
+    },
+    {
+        "iso": "MZ",
+        "iso3": "MOZ",
+        "numcode": 508,
+        "name": "Mozambique",
+        "slug": "mozambique",
+        "continent": "AF"
+    },
+    {
+        "iso": "MM",
+        "iso3": "MMR",
+        "numcode": 104,
+        "name": "Myanmar",
+        "slug": "myanmar",
+        "continent": "AS"
+    },
+    {
+        "iso": "NA",
+        "iso3": "NAM",
+        "numcode": 516,
+        "name": "Namibia",
+        "slug": "namibia",
+        "continent": "AF"
+    },
+    {
+        "iso": "NR",
+        "iso3": "NRU",
+        "numcode": 520,
+        "name": "Nauru",
+        "slug": "nauru",
+        "continent": "OC"
+    },
+    {
+        "iso": "NP",
+        "iso3": "NPL",
+        "numcode": 524,
+        "name": "Nepal",
+        "slug": "nepal",
+        "continent": "AS"
+    },
+    {
+        "iso": "NL",
+        "iso3": "NLD",
+        "numcode": 528,
+        "name": "Netherlands",
+        "slug": "netherlands",
+        "continent": "EU"
+    },
+    {
+        "iso": "AN",
+        "iso3": "ANT",
+        "numcode": 530,
+        "name": "Netherlands Antilles",
+        "slug": "netherlands-antilles",
+        "continent": "NA"
+    },
+    {
+        "iso": "NC",
+        "iso3": "NCL",
+        "numcode": 540,
+        "name": "New Caledonia",
+        "slug": "new-caledonia",
+        "continent": "OC"
+    },
+    {
+        "iso": "NZ",
+        "iso3": "NZL",
+        "numcode": 554,
+        "name": "New Zealand",
+        "slug": "new-zealand",
+        "continent": "OC"
+    },
+    {
+        "iso": "NI",
+        "iso3": "NIC",
+        "numcode": 558,
+        "name": "Nicaragua",
+        "slug": "nicaragua",
+        "continent": "NA"
+    },
+    {
+        "iso": "NE",
+        "iso3": "NER",
+        "numcode": 562,
+        "name": "Niger",
+        "slug": "niger",
+        "continent": "AF"
+    },
+    {
+        "iso": "NG",
+        "iso3": "NGA",
+        "numcode": 566,
+        "name": "Nigeria",
+        "slug": "nigeria",
+        "continent": "AF"
+    },
+    {
+        "iso": "NU",
+        "iso3": "NIU",
+        "numcode": 570,
+        "name": "Niue",
+        "slug": "niue",
+        "continent": "OC"
+    },
+    {
+        "iso": "NF",
+        "iso3": "NFK",
+        "numcode": 574,
+        "name": "Norfolk Island",
+        "slug": "norfolk-island",
+        "continent": "OC"
+    },
+    {
+        "iso": "MP",
+        "iso3": "MNP",
+        "numcode": 580,
+        "name": "Northern Mariana Islands",
+        "slug": "northern-mariana-islands",
+        "continent": "OC"
+    },
+    {
+        "iso": "NO",
+        "iso3": "NOR",
+        "numcode": 578,
+        "name": "Norway",
+        "slug": "norway",
+        "continent": "EU"
+    },
+    {
+        "iso": "OM",
+        "iso3": "OMN",
+        "numcode": 512,
+        "name": "Oman",
+        "slug": "oman",
+        "continent": "AS"
+    },
+    {
+        "iso": "PK",
+        "iso3": "PAK",
+        "numcode": 586,
+        "name": "Pakistan",
+        "slug": "pakistan",
+        "continent": "AS"
+    },
+    {
+        "iso": "PW",
+        "iso3": "PLW",
+        "numcode": 585,
+        "name": "Palau",
+        "slug": "palau",
+        "continent": "OC"
+    },
+    {
+        "iso": "PS",
+        "name": "Palestinian Territory, Occupied",
+        "slug": "palestinian-territory-occupied",
+        "continent": "AS"
+    },
+    {
+        "iso": "PA",
+        "iso3": "PAN",
+        "numcode": 591,
+        "name": "Panama",
+        "slug": "panama",
+        "continent": "NA"
+    },
+    {
+        "iso": "PG",
+        "iso3": "PNG",
+        "numcode": 598,
+        "name": "Papua New Guinea",
+        "slug": "papua-new-guinea",
+        "continent": "OC"
+    },
+    {
+        "iso": "PY",
+        "iso3": "PRY",
+        "numcode": 600,
+        "name": "Paraguay",
+        "slug": "paraguay",
+        "continent": "SA"
+    },
+    {
+        "iso": "PE",
+        "iso3": "PER",
+        "numcode": 604,
+        "name": "Peru",
+        "slug": "peru",
+        "continent": "SA"
+    },
+    {
+        "iso": "PH",
+        "iso3": "PHL",
+        "numcode": 608,
+        "name": "Philippines",
+        "slug": "philippines",
+        "continent": "AS"
+    },
+    {
+        "iso": "PN",
+        "iso3": "PCN",
+        "numcode": 612,
+        "name": "Pitcairn",
+        "slug": "pitcairn",
+        "continent": "OC"
+    },
+    {
+        "iso": "PL",
+        "iso3": "POL",
+        "numcode": 616,
+        "name": "Poland",
+        "slug": "poland",
+        "continent": "EU"
+    },
+    {
+        "iso": "PT",
+        "iso3": "PRT",
+        "numcode": 620,
+        "name": "Portugal",
+        "slug": "portugal",
+        "continent": "EU"
+    },
+    {
+        "iso": "PR",
+        "iso3": "PRI",
+        "numcode": 630,
+        "name": "Puerto Rico",
+        "slug": "puerto-rico",
+        "continent": "NA"
+    },
+    {
+        "iso": "QA",
+        "iso3": "QAT",
+        "numcode": 634,
+        "name": "Qatar",
+        "slug": "qatar",
+        "continent": "AS"
+    },
+    {
+        "iso": "RE",
+        "iso3": "REU",
+        "numcode": 638,
+        "name": "Reunion",
+        "slug": "reunion",
+        "continent": "AF"
+    },
+    {
+        "iso": "RU",
+        "iso3": "RUS",
+        "numcode": 643,
+        "name": "Russian Federation",
+        "slug": "russian-federation",
+        "continent": "AS"
+    },
+    {
+        "iso": "RW",
+        "iso3": "RWA",
+        "numcode": 646,
+        "name": "Rwanda",
+        "slug": "rwanda",
+        "continent": "AF"
+    },
+    {
+        "iso": "SH",
+        "iso3": "SHN",
+        "numcode": 654,
+        "name": "Saint Helena",
+        "slug": "saint-helena",
+        "continent": "AF"
+    },
+    {
+        "iso": "KN",
+        "iso3": "KNA",
+        "numcode": 659,
+        "name": "Saint Kitts and Nevis",
+        "slug": "saint-kitts-and-nevis",
+        "continent": "NA"
+    },
+    {
+        "iso": "LC",
+        "iso3": "LCA",
+        "numcode": 662,
+        "name": "Saint Lucia",
+        "slug": "saint-lucia",
+        "continent": "NA"
+    },
+    {
+        "iso": "PM",
+        "iso3": "SPM",
+        "numcode": 666,
+        "name": "Saint Pierre and Miquelon",
+        "slug": "saint-pierre-and-miquelon",
+        "continent": "NA"
+    },
+    {
+        "iso": "VC",
+        "iso3": "VCT",
+        "numcode": 670,
+        "name": "Saint Vincent and the Grenadines",
+        "slug": "saint-vincent-and-the-grenadines",
+        "continent": "NA"
+    },
+    {
+        "iso": "WS",
+        "iso3": "WSM",
+        "numcode": 882,
+        "name": "Samoa",
+        "slug": "samoa",
+        "continent": "OC"
+    },
+    {
+        "iso": "SM",
+        "iso3": "SMR",
+        "numcode": 674,
+        "name": "San Marino",
+        "slug": "san-marino",
+        "continent": "EU"
+    },
+    {
+        "iso": "ST",
+        "iso3": "STP",
+        "numcode": 678,
+        "name": "Sao Tome and Principe",
+        "slug": "sao-tome-and-principe",
+        "continent": "AF"
+    },
+    {
+        "iso": "SA",
+        "iso3": "SAU",
+        "numcode": 682,
+        "name": "Saudi Arabia",
+        "slug": "saudi-arabia",
+        "continent": "AS"
+    },
+    {
+        "iso": "SN",
+        "iso3": "SEN",
+        "numcode": 686,
+        "name": "Senegal",
+        "slug": "senegal",
+        "continent": "AF"
+    },
+    {
+        "iso": "SC",
+        "iso3": "SYC",
+        "numcode": 690,
+        "name": "Seychelles",
+        "slug": "seychelles",
+        "continent": "AF"
+    },
+    {
+        "iso": "SL",
+        "iso3": "SLE",
+        "numcode": 694,
+        "name": "Sierra Leone",
+        "slug": "sierra-leone",
+        "continent": "AF"
+    },
+    {
+        "iso": "SG",
+        "iso3": "SGP",
+        "numcode": 702,
+        "name": "Singapore",
+        "slug": "singapore",
+        "continent": "AS"
+    },
+    {
+        "iso": "SK",
+        "iso3": "SVK",
+        "numcode": 703,
+        "name": "Slovakia",
+        "slug": "slovakia",
+        "continent": "EU"
+    },
+    {
+        "iso": "SI",
+        "iso3": "SVN",
+        "numcode": 705,
+        "name": "Slovenia",
+        "slug": "slovenia",
+        "continent": "EU"
+    },
+    {
+        "iso": "SB",
+        "iso3": "SLB",
+        "numcode": 90,
+        "name": "Solomon Islands",
+        "slug": "solomon-islands",
+        "continent": "OC"
+    },
+    {
+        "iso": "SO",
+        "iso3": "SOM",
+        "numcode": 706,
+        "name": "Somalia",
+        "slug": "somalia",
+        "continent": "AF"
+    },
+    {
+        "iso": "ZA",
+        "iso3": "ZAF",
+        "numcode": 710,
+        "name": "South Africa",
+        "slug": "south-africa",
+        "continent": "AF"
+    },
+    {
+        "iso": "GS",
+        "name": "South Georgia and the South Sandwich Islands",
+        "slug": "south-georgia-and-the-south-sandwich-islands",
+        "continent": "AN"
+    },
+    {
+        "iso": "ES",
+        "iso3": "ESP",
+        "numcode": 724,
+        "name": "Spain",
+        "slug": "spain",
+        "continent": "EU"
+    },
+    {
+        "iso": "LK",
+        "iso3": "LKA",
+        "numcode": 144,
+        "name": "Sri Lanka",
+        "slug": "sri-lanka",
+        "continent": "AS"
+    },
+    {
+        "iso": "SD",
+        "iso3": "SDN",
+        "numcode": 736,
+        "name": "Sudan",
+        "slug": "sudan",
+        "continent": "AF"
+    },
+    {
+        "iso": "SR",
+        "iso3": "SUR",
+        "numcode": 740,
+        "name": "Suriname",
+        "slug": "suriname",
+        "continent": "SA"
+    },
+    {
+        "iso": "SJ",
+        "iso3": "SJM",
+        "numcode": 744,
+        "name": "Svalbard and Jan Mayen",
+        "slug": "svalbard-and-jan-mayen",
+        "continent": "EU"
+    },
+    {
+        "iso": "SZ",
+        "iso3": "SWZ",
+        "numcode": 748,
+        "name": "Swaziland",
+        "slug": "swaziland",
+        "continent": "AF"
+    },
+    {
+        "iso": "SE",
+        "iso3": "SWE",
+        "numcode": 752,
+        "name": "Sweden",
+        "slug": "sweden",
+        "continent": "EU"
+    },
+    {
+        "iso": "CH",
+        "iso3": "CHE",
+        "numcode": 756,
+        "name": "Switzerland",
+        "slug": "switzerland",
+        "continent": "EU"
+    },
+    {
+        "iso": "SY",
+        "iso3": "SYR",
+        "numcode": 760,
+        "name": "Syrian Arab Republic",
+        "slug": "syrian-arab-republic",
+        "continent": "AS"
+    },
+    {
+        "iso": "TW",
+        "iso3": "TWN",
+        "numcode": 158,
+        "name": "Taiwan, Province of China",
+        "slug": "taiwan-province-of-china",
+        "continent": "AS"
+    },
+    {
+        "iso": "TJ",
+        "iso3": "TJK",
+        "numcode": 762,
+        "name": "Tajikistan",
+        "slug": "tajikistan",
+        "continent": "AS"
+    },
+    {
+        "iso": "TZ",
+        "iso3": "TZA",
+        "numcode": 834,
+        "name": "Tanzania, United Republic of",
+        "slug": "tanzania-united-republic-of",
+        "continent": "AF"
+    },
+    {
+        "iso": "TH",
+        "iso3": "THA",
+        "numcode": 764,
+        "name": "Thailand",
+        "slug": "thailand",
+        "continent": "AS"
+    },
+    {
+        "iso": "TL",
+        "name": "Timor-Leste",
+        "slug": "timor-leste",
+        "continent": "AS"
+    },
+    {
+        "iso": "TG",
+        "iso3": "TGO",
+        "numcode": 768,
+        "name": "Togo",
+        "slug": "togo",
+        "continent": "AF"
+    },
+    {
+        "iso": "TK",
+        "iso3": "TKL",
+        "numcode": 772,
+        "name": "Tokelau",
+        "slug": "tokelau",
+        "continent": "OC"
+    },
+    {
+        "iso": "TO",
+        "iso3": "TON",
+        "numcode": 776,
+        "name": "Tonga",
+        "slug": "tonga",
+        "continent": "OC"
+    },
+    {
+        "iso": "TT",
+        "iso3": "TTO",
+        "numcode": 780,
+        "name": "Trinidad and Tobago",
+        "slug": "trinidad-and-tobago",
+        "continent": "NA"
+    },
+    {
+        "iso": "TN",
+        "iso3": "TUN",
+        "numcode": 788,
+        "name": "Tunisia",
+        "slug": "tunisia",
+        "continent": "AF"
+    },
+    {
+        "iso": "TR",
+        "iso3": "TUR",
+        "numcode": 792,
+        "name": "Turkey",
+        "slug": "turkey",
+        "continent": "AS"
+    },
+    {
+        "iso": "TM",
+        "iso3": "TKM",
+        "numcode": 795,
+        "name": "Turkmenistan",
+        "slug": "turkmenistan",
+        "continent": "AS"
+    },
+    {
+        "iso": "TC",
+        "iso3": "TCA",
+        "numcode": 796,
+        "name": "Turks and Caicos Islands",
+        "slug": "turks-and-caicos-islands",
+        "continent": "NA"
+    },
+    {
+        "iso": "TV",
+        "iso3": "TUV",
+        "numcode": 798,
+        "name": "Tuvalu",
+        "slug": "tuvalu",
+        "continent": "OC"
+    },
+    {
+        "iso": "UG",
+        "iso3": "UGA",
+        "numcode": 800,
+        "name": "Uganda",
+        "slug": "uganda",
+        "continent": "AF"
+    },
+    {
+        "iso": "UA",
+        "iso3": "UKR",
+        "numcode": 804,
+        "name": "Ukraine",
+        "slug": "ukraine",
+        "continent": "EU"
+    },
+    {
+        "iso": "AE",
+        "iso3": "ARE",
+        "numcode": 784,
+        "name": "United Arab Emirates",
+        "slug": "united-arab-emirates",
+        "continent": "AS"
+    },
+    {
+        "iso": "GB",
+        "iso3": "GBR",
+        "numcode": 826,
+        "name": "United Kingdom",
+        "slug": "united-kingdom",
+        "continent": "EU"
+    },
+    {
+        "iso": "US",
+        "iso3": "USA",
+        "numcode": 840,
+        "name": "United States",
+        "slug": "united-states",
+        "continent": "NA"
+    },
+    {
+        "iso": "UM",
+        "name": "United States Minor Outlying Islands",
+        "slug": "united-states-minor-outlying-islands",
+        "continent": "NA"
+    },
+    {
+        "iso": "UY",
+        "iso3": "URY",
+        "numcode": 858,
+        "name": "Uruguay",
+        "slug": "uruguay",
+        "continent": "SA"
+    },
+    {
+        "iso": "UZ",
+        "iso3": "UZB",
+        "numcode": 860,
+        "name": "Uzbekistan",
+        "slug": "uzbekistan",
+        "continent": "AS"
+    },
+    {
+        "iso": "VU",
+        "iso3": "VUT",
+        "numcode": 548,
+        "name": "Vanuatu",
+        "slug": "vanuatu",
+        "continent": "OC"
+    },
+    {
+        "iso": "VE",
+        "iso3": "VEN",
+        "numcode": 862,
+        "name": "Venezuela",
+        "slug": "venezuela",
+        "continent": "SA"
+    },
+    {
+        "iso": "VN",
+        "iso3": "VNM",
+        "numcode": 704,
+        "name": "Viet Nam",
+        "slug": "viet-nam",
+        "continent": "AS"
+    },
+    {
+        "iso": "VG",
+        "iso3": "VGB",
+        "numcode": 92,
+        "name": "Virgin Islands, British",
+        "slug": "virgin-islands-british",
+        "continent": "NA"
+    },
+    {
+        "iso": "VI",
+        "iso3": "VIR",
+        "numcode": 850,
+        "name": "Virgin Islands, U.s.",
+        "slug": "virgin-islands-u-s-",
+        "continent": "NA"
+    },
+    {
+        "iso": "WF",
+        "iso3": "WLF",
+        "numcode": 876,
+        "name": "Wallis and Futuna",
+        "slug": "wallis-and-futuna",
+        "continent": "OC"
+    },
+    {
+        "iso": "EH",
+        "iso3": "ESH",
+        "numcode": 732,
+        "name": "Western Sahara",
+        "slug": "western-sahara",
+        "continent": "AF"
+    },
+    {
+        "iso": "YE",
+        "iso3": "YEM",
+        "numcode": 887,
+        "name": "Yemen",
+        "slug": "yemen",
+        "continent": "AS"
+    },
+    {
+        "iso": "ZM",
+        "iso3": "ZMB",
+        "numcode": 894,
+        "name": "Zambia",
+        "slug": "zambia",
+        "continent": "AF"
+    },
+    {
+        "iso": "ZW",
+        "iso3": "ZWE",
+        "numcode": 716,
+        "name": "Zimbabwe",
+        "slug": "zimbabwe",
+        "continent": "AF"
+    },
+    {
+        "iso": "AQ",
+        "iso3": "ATA",
+        "numcode": "10",
+        "name": "Antarctica (the territory South of 60 deg S)",
+        "slug": "antarctica-the-territory-south-of-60-deg-s-"
+    },
+    {
+        "iso": "BV",
+        "iso3": "BVT",
+        "numcode": "74",
+        "name": "Bouvet Island (Bouvetoya)",
+        "slug": "bouvet-island-bouvetoya-"
+    },
+    {
+        "iso": "IO",
+        "iso3": "IOT",
+        "numcode": "86",
+        "name": "British Indian Ocean Territory (Chagos Archipelago)",
+        "slug": "british-indian-ocean-territory-chagos-archipelago-"
+    },
+    {
+        "iso": "CX",
+        "iso3": "CXR",
+        "numcode": "162",
+        "name": "Christmas Island",
+        "slug": "christmas-island"
+    },
+    {
+        "iso": "CC",
+        "iso3": "CCK",
+        "numcode": "166",
+        "name": "Cocos (Keeling) Islands",
+        "slug": "cocos-keeling-islands"
+    },
+    {
+        "iso": "YT",
+        "iso3": "MYT",
+        "numcode": "175",
+        "name": "Mayotte",
+        "slug": "mayotte"
+    },
+    {
+        "iso": "GS",
+        "iso3": "SGS",
+        "numcode": "239",
+        "name": "South Georgia and the South Sandwich Islands",
+        "slug": "south-georgia-and-the-south-sandwich-islands"
+    },
+    {
+        "iso": "AX",
+        "iso3": "ALA",
+        "numcode": "248",
+        "name": "Åland Islands",
+        "slug": "-land-islands",
+        "continent": "EU"
+    },
+    {
+        "iso": "TF",
+        "iso3": "ATF",
+        "numcode": "260",
+        "name": "French Southern Territories",
+        "slug": "french-southern-territories"
+    },
+    {
+        "iso": "PS",
+        "iso3": "PSE",
+        "numcode": "275",
+        "name": "Palestinian Territory, Occupied",
+        "slug": "palestinian-territory-occupied"
+    },
+    {
+        "iso": "HM",
+        "iso3": "HMD",
+        "numcode": "334",
+        "name": "Heard Island and McDonald Islands",
+        "slug": "heard-island-and-mcdonald-islands"
+    },
+    {
+        "iso": "ME",
+        "iso3": "MNE",
+        "numcode": "499",
+        "name": "Montenegro, Republic of",
+        "slug": "montenegro-republic-of",
+        "continent": "EU"
+    },
+    {
+        "iso": "CW",
+        "iso3": "CUW",
+        "numcode": "531",
+        "name": "Curaçao",
+        "slug": "cura-ao"
+    },
+    {
+        "iso": "SX",
+        "iso3": "SXM",
+        "numcode": "534",
+        "name": "Sint Maarten (Netherlands)",
+        "slug": "sint-maarten-netherlands-"
+    },
+    {
+        "iso": "BQ",
+        "iso3": "BES",
+        "numcode": "535",
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "slug": "bonaire-sint-eustatius-and-saba"
+    },
+    {
+        "iso": "TL",
+        "iso3": "TLS",
+        "numcode": "626",
+        "name": "Timor-Leste, Democratic Republic of",
+        "slug": "timor-leste-democratic-republic-of"
+    },
+    {
+        "iso": "RO",
+        "iso3": "ROU",
+        "numcode": "642",
+        "name": "Romania",
+        "slug": "romania",
+        "continent": "EU"
+    },
+    {
+        "iso": "BL",
+        "iso3": "BLM",
+        "numcode": "652",
+        "name": "Saint Barthelemy",
+        "slug": "saint-barthelemy"
+    },
+    {
+        "iso": "MF",
+        "iso3": "MAF",
+        "numcode": "663",
+        "name": "Saint Martin",
+        "slug": "saint-martin"
+    },
+    {
+        "iso": "RS",
+        "iso3": "SRB",
+        "numcode": "688",
+        "name": "Serbia, Republic of",
+        "slug": "serbia-republic-of",
+        "continent": "EU"
+    },
+    {
+        "iso": "SS",
+        "iso3": "SSD",
+        "numcode": "728",
+        "name": "South Sudan",
+        "slug": "south-sudan"
+    },
+    {
+        "iso": "GG",
+        "iso3": "GGY",
+        "numcode": "831",
+        "name": "Guernsey, Bailiwick of",
+        "slug": "guernsey-bailiwick-of",
+        "continent": "EU"
+    },
+    {
+        "iso": "JE",
+        "iso3": "JEY",
+        "numcode": "832",
+        "name": "Jersey, Bailiwick of",
+        "slug": "jersey-bailiwick-of",
+        "continent": "EU"
+    },
+    {
+        "iso": "IM",
+        "iso3": "IMN",
+        "numcode": "833",
+        "name": "Isle of Man",
+        "slug": "isle-of-man",
+        "continent": "EU"
+    }
+]

@@ -1,12 +1,22 @@
 # Locales
 
-This service provides up to date information about largely static global data.
+This service provides immutable data based on locale.
 
 So far it includes:
 
- - [ ] Continents
- - [ ] Countries
+ - [x] Continents
+ - [x] Countries
  - [ ] Languages
  - [ ] US States
 
 PR's welcome for more geographic elements.
+
+## Methods
+
+### Continents
+
+> Get Continent with ISO
+
+### Countries
+
+> Get Countries in Continent
