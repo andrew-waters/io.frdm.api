@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/andrew-waters/frdm/services/locale/core/entities"
+	"github.com/andrew-waters/frdm/services/locale/core/errors"
 )
 
 type CountryRepository struct {
@@ -24,6 +25,17 @@ func NewCountryRepository() (*CountryRepository, error) {
 	return &CountryRepository{
 		countries: countries,
 	}, nil
+}
+
+func (c CountryRepository) FindCountryWithISO(ISO string) (entities.Country, error) {
+
+	for _, country := range c.countries {
+		if country.ISO == ISO {
+			return country, nil
+		}
+	}
+
+	return entities.Country{}, errors.ErrCountryNotFound
 }
 
 func (c CountryRepository) FindCountriesInContinent(ISO string) ([]entities.Country, error) {

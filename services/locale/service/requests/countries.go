@@ -5,5 +5,10 @@ type FindCountriesInContinent struct {
 	ISO string
 }
 
-// FindAllCountries gets all countries
+// FindAllCountries request
 type FindAllCountries struct{}
+
+//FindCountryWithISO request
+type FindCountryWithISO struct {
+	ISO string
+}

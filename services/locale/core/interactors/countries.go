@@ -19,6 +19,26 @@ func NewCountryInteractor(repository repositories.Countries) *CountryInteractor 
 	}
 }
 
+// FindCountryWithISO gets a country by ISO(2)
+func (interactor CountryInteractor) FindCountryWithISO(request requests.FindCountryWithISO) (responses.Country, error) {
+
+	var country entities.Country
+
+	// validate the incoming request
+	if err := country.Validate(request); err != nil {
+		return responses.Country{}, err
+	}
+
+	// finished validation, find the continent
+	country, err := interactor.repository.FindCountryWithISO(request.ISO)
+	if err != nil {
+		return responses.Country{}, err
+	}
+
+	// return a Page response from the entity
+	return country.Response(), nil
+}
+
 // FindCountriesInContinent retrieves all countries in a continent
 func (interactor CountryInteractor) FindCountriesInContinent(request requests.FindCountriesInContinent) ([]responses.Country, error) {
 
