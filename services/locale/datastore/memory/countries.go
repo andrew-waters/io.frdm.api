@@ -29,7 +29,6 @@ func NewCountryRepository() (*CountryRepository, error) {
 func (c CountryRepository) FindCountriesInContinent(ISO string) ([]entities.Country, error) {
 
 	var matching []entities.Country
-
 	for _, country := range c.countries {
 		if country.Continent == ISO {
 			matching = append(matching, country)
@@ -37,4 +36,15 @@ func (c CountryRepository) FindCountriesInContinent(ISO string) ([]entities.Coun
 	}
 
 	return matching, nil
+}
+
+func (c CountryRepository) FindAllCountries() ([]entities.Country, error) {
+
+	var matching []entities.Country
+	for _, country := range c.countries {
+		matching = append(matching, country)
+	}
+
+	return matching, nil
+
 }

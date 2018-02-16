@@ -4,3 +4,6 @@ package requests
 type FindCountriesInContinent struct {
 	ISO string
 }
+
+// FindAllCountries gets all countries
+type FindAllCountries struct{}

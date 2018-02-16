@@ -8,4 +8,5 @@ import (
 // Countries is a boundary that can do things with countries
 type Countries interface {
 	FindCountriesInContinent(requests.FindCountriesInContinent) ([]responses.Country, error)
+	FindAllCountries(requests.FindAllCountries) ([]responses.Country, error)
 }

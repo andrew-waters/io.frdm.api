@@ -43,3 +43,26 @@ func (interactor CountryInteractor) FindCountriesInContinent(request requests.Fi
 	}
 	return response, nil
 }
+
+func (interactor CountryInteractor) FindAllCountries(request requests.FindAllCountries) ([]responses.Country, error) {
+
+	var response []responses.Country
+	var country entities.Country
+
+	// validate the incoming request
+	if err := country.Validate(request); err != nil {
+		return response, err
+	}
+
+	// finished validation, find the countries
+	countries, err := interactor.repository.FindAllCountries()
+	if err != nil {
+		return response, err
+	}
+
+	// format and return the response
+	for _, country := range countries {
+		response = append(response, country.Response())
+	}
+	return response, nil
+}
