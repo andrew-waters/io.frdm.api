@@ -7,3 +7,5 @@ import:
 - package: gopkg.in/mgo.v2
   subpackages:
   - bson
+- package: github.com/go-kit/kit
+  version: ^0.6.0

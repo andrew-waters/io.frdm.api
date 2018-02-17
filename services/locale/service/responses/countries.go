@@ -1,10 +1,10 @@
 package responses
 
 type Country struct {
-	ISO       string
-	ISO3      string
-	NumCode   int
-	Name      string
-	Slug      string
-	Continent string
+	ISO       string `json:"iso"`
+	ISO3      string `json:"iso3,omitempty"`
+	NumCode   int    `json:"numcode,omitempty"`
+	Name      string `json:"name"`
+	Slug      string `json:"slug"`
+	Continent string `json:"continent,omitempty"`
 }

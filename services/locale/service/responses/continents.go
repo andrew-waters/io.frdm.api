@@ -1,7 +1,7 @@
 package responses
 
 type Continent struct {
-	ISO  string
-	Name string
-	Slug string
+	ISO  string `json:"iso"`
+	Name string `json:"name"`
+	Slug string `json:"slug"`
 }
