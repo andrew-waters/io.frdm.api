@@ -15,88 +15,91 @@
         "https"
     ],
     "paths": {
-        "/locales/countries": {
-            "get": {
-                "tags": [
-                    "countries"
-                ],
-                "summary": "get all countries",
-                "description": "",
-                "operationId": "getCountries",
-                "consumes": [
-                    "application/json"
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "parameters": [],
-                "responses": {
-                    "200": {
-                        "description": "successful operation",
-                        "schema": {
-                            "type": "object",
-                            "properties": {
-                                "data": {
-                                    "$id": "/properties/data",
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#/definitions/country"
+        "/locales": {
+            "/countries": {
+                "get": {
+                    "tags": [
+                        "countries"
+                    ],
+                    "summary": "get all countries",
+                    "description": "",
+                    "operationId": "getCountries",
+                    "consumes": [
+                        "application/json"
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "successful operation",
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "data": {
+                                        "$id": "/properties/data",
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/definitions/country"
+                                        }
                                     }
                                 }
                             }
                         }
-                    }
-                },
-                "security": [
-                    {
-                        "oauth2": [
-                            "read:countries"
-                        ]
-                    }
-                ]
-            }
-        },
-        "/locales/continents": {
-            "get": {
-                "tags": [
-                    "continents"
-                ],
-                "summary": "get all continents",
-                "description": "",
-                "operationId": "getContinents",
-                "consumes": [
-                    "application/json"
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "parameters": [],
-                "responses": {
-                    "200": {
-                        "description": "successful operation",
-                        "schema": {
-                            "type": "object",
-                            "properties": {
-                                "data": {
-                                    "$id": "/properties/data",
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#/definitions/continent"
+                    },
+                    "security": [
+                        {
+                            "oauth2": [
+                                "read:countries"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "/continents": {
+                "get": {
+                    "tags": [
+                        "continents"
+                    ],
+                    "summary": "get all continents",
+                    "description": "",
+                    "operationId": "getContinents",
+                    "consumes": [
+                        "application/json"
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "successful operation",
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "data": {
+                                        "$id": "/properties/data",
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/definitions/continent"
+                                        }
                                     }
                                 }
                             }
                         }
-                    }
-                },
-                "security": [
-                    {
-                        "oauth2": [
-                            "read:countries"
-                        ]
-                    }
-                ]
+                    },
+                    "security": [
+                        {
+                            "oauth2": [
+                                "read:countries"
+                            ]
+                        }
+                    ]
+                }
             }
-        }    },
+        }
+    },
     "securityDefinitions": {
         "OAuth2": {
             "type": "oauth2",
