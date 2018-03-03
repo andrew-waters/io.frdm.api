@@ -20,7 +20,7 @@
                 "tags": [
                     "countries"
                 ],
-                "summary": "get all countries",
+                "summary": "Get all countries",
                 "description": "",
                 "operationId": "getCountries",
                 "consumes": [
@@ -50,7 +50,8 @@
                 "security": [
                     {
                         "oauth2": [
-                            "read:countries"
+                            "read:country",
+                            "read:continent"
                         ]
                     }
                 ]
@@ -61,7 +62,7 @@
                 "tags": [
                     "continents"
                 ],
-                "summary": "get all continents",
+                "summary": "Get all continents",
                 "description": "",
                 "operationId": "getContinents",
                 "consumes": [
@@ -91,7 +92,57 @@
                 "security": [
                     {
                         "oauth2": [
-                            "read:countries"
+                            "read:country"
+                        ]
+                    }
+                ]
+            }
+        },
+        "/locale/continents/{iso}/countries": {
+            "get": {
+                "tags": [
+                    "continents"
+                ],
+                "summary": "Get all countries in a continent",
+                "description": "",
+                "operationId": "getCountriesInContinent",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "iso",
+                        "in": "path",
+                        "description": "The continent ISO",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "$id": "/properties/data",
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/country"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "read:continent",
+                            "read:country"
                         ]
                     }
                 ]
