@@ -1,0 +1,109 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "An open source content management API. You can find out more about frdm at [https://frdm.io](https://frdm.io).",
+        "version": "0.0.1",
+        "title": "frdm",
+        "termsOfService": "https://frdm.io/terms.html",
+        "contact": {
+            "email": "api@frdm.io"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "host": "docs.frdm.io",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "frdm",
+            "description": "Read about frdm",
+            "externalDocs": {
+                "description": "Find out more",
+                "url": "http://docs.frdm.io"
+            }
+        }
+    ],
+    "schemes": [
+        "https"
+    ],
+    "paths": {
+        "/locales/countries": {
+            "get": {
+                "tags": [
+                    "countries"
+                ],
+                "summary": "get all countries",
+                "description": "",
+                "operationId": "getCountries",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/country"
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "read:countries"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "securityDefinitions": {
+        "oauth2": {
+            "type": "oauth2",
+            "authorizationUrl": "http://api.frdm.io/oauth/dialog",
+            "flow": "implicit",
+            "scopes": {
+                "read:countries": "get all countries"
+            }
+        }
+    },
+    "definitions": {
+        "country": {
+            "type": "object",
+            "properties": {
+                "iso": {
+                    "type": "string"
+                },
+                "iso3": {
+                    "type": "string"
+                },
+                "numcode": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "slug": {
+                    "type": "string"
+                },
+                "continent": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "externalDocs": {
+        "description": "Find out more about frdm",
+        "url": "https://frdm.io"
+    }
+}
