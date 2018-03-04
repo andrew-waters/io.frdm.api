@@ -15,7 +15,7 @@
         "https"
     ],
     "paths": {
-        "/locales/countries": {
+        "/locale/countries": {
             "get": {
                 "tags": [
                     "countries"
@@ -57,7 +57,7 @@
                 ]
             }
         },
-        "/locales/continents": {
+        "/locale/continents": {
             "get": {
                 "tags": [
                     "continents"
