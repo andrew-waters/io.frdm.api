@@ -57,6 +57,53 @@
                 ]
             }
         },
+        "/locale/countries/{iso}": {
+            "get": {
+                "tags": [
+                    "countries"
+                ],
+                "summary": "Get a country by ISO",
+                "description": "",
+                "operationId": "getCountryByISO",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "iso",
+                        "in": "path",
+                        "description": "The country ISO",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "$id": "/properties/data",
+                                    "type": "object",
+                                    "$ref": "#/definitions/country"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "read:country"
+                        ]
+                    }
+                ]
+            }
+        },
         "/locale/continents": {
             "get": {
                 "tags": [
