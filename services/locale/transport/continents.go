@@ -12,6 +12,7 @@ import (
 	"github.com/go-kit/kit/endpoint"
 )
 
+// MakeFindAllContinentsEndpoint returns the endpoint for getting all continents
 func MakeFindAllContinentsEndpoint(service service.Continents) endpoint.Endpoint {
 	return func(_ context.Context, request interface{}) (response interface{}, err error) {
 		req := requests.FindAllContinents{}
@@ -19,6 +20,7 @@ func MakeFindAllContinentsEndpoint(service service.Continents) endpoint.Endpoint
 	}
 }
 
+// MakeFindContinentWithISO returns the endpoint for getting a single continent with an ISO
 func MakeFindContinentWithISO(service service.Continents) endpoint.Endpoint {
 	return func(_ context.Context, request interface{}) (response interface{}, err error) {
 
@@ -31,6 +33,7 @@ func MakeFindContinentWithISO(service service.Continents) endpoint.Endpoint {
 	}
 }
 
+// DecodeFindContinentWithISORequest attempts to create a FindContinentByISO request
 func DecodeFindContinentWithISORequest(_ context.Context, r *http.Request) (interface{}, error) {
 	var request requests.FindContinentByISO
 
@@ -43,6 +46,7 @@ func DecodeFindContinentWithISORequest(_ context.Context, r *http.Request) (inte
 	return nil, errors.New("no iso")
 }
 
+// DecodeFindAllContinentsRequest attempts to create a FindAllContinents request
 func DecodeFindAllContinentsRequest(_ context.Context, r *http.Request) (interface{}, error) {
 	var request requests.FindAllContinents
 	return request, nil

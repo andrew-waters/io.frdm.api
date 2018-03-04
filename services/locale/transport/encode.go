@@ -8,6 +8,7 @@ import (
 	"github.com/google/jsonapi"
 )
 
+// EncodeResponse is used by all endpoints to write the response interface{} to the w https.ResponseWriter
 func EncodeResponse(_ context.Context, w http.ResponseWriter, response interface{}) error {
 	if err, ok := response.(error); ok && err != nil {
 		return err

@@ -2,17 +2,16 @@ package transport
 
 import (
 	"context"
-	"encoding/json"
 	"errors"
 	"net/http"
 
 	"github.com/andrew-waters/frdm/services/locale/service"
 	"github.com/andrew-waters/frdm/services/locale/service/requests"
-	"github.com/andrew-waters/frdm/services/locale/service/responses"
 	"github.com/go-kit/kit/endpoint"
 	"github.com/gorilla/mux"
 )
 
+// MakeFindAllCountriesEndpoint creates an endpoint to serve requests for all countries
 func MakeFindAllCountriesEndpoint(service service.Countries) endpoint.Endpoint {
 	return func(_ context.Context, request interface{}) (response interface{}, err error) {
 		req := requests.FindAllCountries{}
@@ -20,11 +19,7 @@ func MakeFindAllCountriesEndpoint(service service.Countries) endpoint.Endpoint {
 	}
 }
 
-func DecodeFindAllCountriesRequest(_ context.Context, r *http.Request) (interface{}, error) {
-	var request requests.FindAllCountries
-	return request, nil
-}
-
+// MakeFindAllCountriesInContinentEndpoint creates an endpoint to serve requests for getting all countries in a continent
 func MakeFindAllCountriesInContinentEndpoint(service service.Countries) endpoint.Endpoint {
 	return func(ctx context.Context, request interface{}) (response interface{}, err error) {
 		r, ok := request.(requests.FindCountriesInContinent)
@@ -36,6 +31,7 @@ func MakeFindAllCountriesInContinentEndpoint(service service.Countries) endpoint
 	}
 }
 
+// MakeFindCountryByISOEndpoint creates an endpoint to serve requests for getting a single country by ISO
 func MakeFindCountryByISOEndpoint(service service.Countries) endpoint.Endpoint {
 	return func(ctx context.Context, request interface{}) (response interface{}, err error) {
 		r, ok := request.(requests.FindCountryWithISO)
@@ -47,17 +43,13 @@ func MakeFindCountryByISOEndpoint(service service.Countries) endpoint.Endpoint {
 	}
 }
 
-func DecodeFindCountryByISORequest(_ context.Context, r *http.Request) (interface{}, error) {
-	var request requests.FindCountryWithISO
-	vars := mux.Vars(r)
-	iso, ok := vars["iso"]
-	if !ok {
-		return nil, errors.New("no iso")
-	}
-	request.ISO = iso
+// DecodeFindAllCountriesRequest consumes the request to find all countries and returns a concrete request
+func DecodeFindAllCountriesRequest(_ context.Context, r *http.Request) (interface{}, error) {
+	var request requests.FindAllCountries
 	return request, nil
 }
 
+// DecodeFindAllCountriesInContinentRequest consumes the request to find all countries and returns a concrete
 func DecodeFindAllCountriesInContinentRequest(_ context.Context, r *http.Request) (interface{}, error) {
 	var request requests.FindCountriesInContinent
 	vars := mux.Vars(r)
@@ -69,17 +61,14 @@ func DecodeFindAllCountriesInContinentRequest(_ context.Context, r *http.Request
 	return request, nil
 }
 
-func EncodeFindAllCountriesInContinentRequest(_ context.Context, w http.ResponseWriter, response []responses.Country) error {
-
-	// if e, ok := response.(error); ok && e != nil {
-	// 	panic("error")
-	// 	// 	// Not a Go kit transport error, but a business-logic error.
-	// 	// 	// Provide those as HTTP errors.
-	// 	// 	// encodeError(ctx, e.error(), w)
-	// 	// 	return json.NewEncoder(w).Encode(e)
-	// }
-	// w.Header().Set("Content-Type", jsonapi.MediaType)
-	// w.WriteHeader(http.StatusOK)
-	// return jsonapi.MarshalPayload(w, response)
-	return json.NewEncoder(w).Encode(response)
+// DecodeFindCountryByISORequest consumes the request to find a single country by ISO and returns a concrete
+func DecodeFindCountryByISORequest(_ context.Context, r *http.Request) (interface{}, error) {
+	var request requests.FindCountryWithISO
+	vars := mux.Vars(r)
+	iso, ok := vars["iso"]
+	if !ok {
+		return nil, errors.New("no iso")
+	}
+	request.ISO = iso
+	return request, nil
 }
