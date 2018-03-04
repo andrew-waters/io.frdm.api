@@ -145,6 +145,53 @@
                 ]
             }
         },
+        "/locale/continents/{iso}": {
+            "get": {
+                "tags": [
+                    "continents"
+                ],
+                "summary": "Get a continent by ISO",
+                "description": "",
+                "operationId": "getContinentByISO",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "iso",
+                        "in": "path",
+                        "description": "The continent ISO",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "data": {
+                                    "$id": "/properties/data",
+                                    "type": "object",
+                                    "$ref": "#/definitions/continent"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "oauth2": [
+                            "read:country"
+                        ]
+                    }
+                ]
+            }
+        }, 
         "/locale/continents/{iso}/countries": {
             "get": {
                 "tags": [
