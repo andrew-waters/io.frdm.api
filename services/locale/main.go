@@ -38,21 +38,34 @@ func main() {
 	)
 
 	router := mux.NewRouter()
-	router.Methods("GET").Path("/locales/countries").Handler(httptransport.NewServer(
-		transport.MakeFindAllCountriesEndpoint(locales.Countries),
-		transport.DecodeFindAllCountriesRequest,
-		transport.EncodeResponse,
-	))
 
-	router.Methods("GET").Path("/locales/continents").Handler(httptransport.NewServer(
+	router.Methods("GET").Path("/locale/continents").Handler(httptransport.NewServer(
 		transport.MakeFindAllContinentsEndpoint(locales.Continents),
 		transport.DecodeFindAllContinentsRequest,
 		transport.EncodeResponse,
 	))
 
-	router.Methods("GET").Path("/locales/continents/{iso}/countries").Handler(httptransport.NewServer(
+	router.Methods("GET").Path("/locale/continents/{iso}").Handler(httptransport.NewServer(
+		transport.MakeFindContinentWithISO(locales.Continents),
+		transport.DecodeFindContinentWithISORequest,
+		transport.EncodeResponse,
+	))
+
+	router.Methods("GET").Path("/locale/continents/{iso}/countries").Handler(httptransport.NewServer(
 		transport.MakeFindAllCountriesInContinentEndpoint(locales.Countries),
 		transport.DecodeFindAllCountriesInContinentRequest,
+		transport.EncodeResponse,
+	))
+
+	router.Methods("GET").Path("/locale/countries").Handler(httptransport.NewServer(
+		transport.MakeFindAllCountriesEndpoint(locales.Countries),
+		transport.DecodeFindAllCountriesRequest,
+		transport.EncodeResponse,
+	))
+
+	router.Methods("GET").Path("/locale/countries/{iso}").Handler(httptransport.NewServer(
+		transport.MakeFindCountryByISOEndpoint(locales.Countries),
+		transport.DecodeFindCountryByISORequest,
 		transport.EncodeResponse,
 	))
 
@@ -69,44 +82,3 @@ type Locales struct {
 func NewLocales(continents service.Continents, countries service.Countries) *Locales {
 	return &Locales{continents, countries}
 }
-
-// func test() {
-// continentISO := "SA"
-// countryISO := "GB"
-
-// continent, err := locales.Continents.FindByISO(requests.FindContinentByISO{ISO: continentISO})
-// if err != nil {
-// 	spew.Dump(err)
-// }
-// country, err := locales.Countries.FindCountryWithISO(requests.FindCountryWithISO{ISO: countryISO})
-// if err != nil {
-// 	spew.Dump(err)
-// }
-// countries, err := locales.Countries.FindCountriesInContinent(requests.FindCountriesInContinent{ISO: continentISO})
-// if err != nil {
-// 	spew.Dump(err)
-// }
-// allCountries, err := locales.Countries.FindAllCountries(requests.FindAllCountries{})
-// if err != nil {
-// 	spew.Dump(err)
-// }
-// allContinents, err := locales.Continents.FindAllContinents(requests.FindAllContinents{})
-// if err != nil {
-// 	spew.Dump(err)
-// }
-
-// spew.Printf("Continent with ISO `%s`:\n", continentISO)
-// spew.Dump(continent)
-
-// spew.Printf("Country with ISO `%s`:\n", countryISO)
-// spew.Dump(country)
-
-// spew.Printf("%d countries in %s :\n", len(countries), continentISO)
-// // spew.Dump(countries)
-
-// spew.Printf("%d countries in total :\n", len(allCountries))
-// // spew.Dump(allCountries)
-
-// spew.Printf("%d continents in total :\n", len(allContinents))
-// spew.Dump(allContinents)
-// }

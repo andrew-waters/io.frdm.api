@@ -4,16 +4,26 @@ import (
 	"context"
 	"encoding/json"
 	"net/http"
+
+	"github.com/google/jsonapi"
 )
 
 func EncodeResponse(_ context.Context, w http.ResponseWriter, response interface{}) error {
+	if err, ok := response.(error); ok && err != nil {
+		return err
+		// 	// Not a Go kit transport error, but a business-logic error.
+		// 	// Provide those as HTTP errors.
+		// 	// encodeError(ctx, e.error(), w)
+		// 	return json.NewEncoder(w).Encode(e)
+	}
+	w.Header().Set("Content-Type", jsonapi.MediaType)
+	w.WriteHeader(http.StatusOK)
 
-	// if e, ok := response.(error); ok && e != nil {
-	// 	// Not a Go kit transport error, but a business-logic error.
-	// 	// Provide those as HTTP errors.
-	// 	// encodeError(ctx, e.error(), w)
-	// 	return json.NewEncoder(w).Encode(e)
-	// }
+	bytes, err := json.Marshal(response)
+	if err != nil {
+		return err
+	}
 
-	return json.NewEncoder(w).Encode(response)
+	w.Write(bytes)
+	return nil
 }
