@@ -3,4 +3,3 @@
 echo "Starting tests on services..."
 
 go test ./...
-

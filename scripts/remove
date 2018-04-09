@@ -1,0 +1,21 @@
+#!/bin/bash
+
+source ./.ENV
+echo "Deploying services..."
+echo ""
+
+DEPLOYMENT_FILE="./deployments/$ENV_NAME.$ENV_PLATFORM"
+
+if [ $ENV_PLATFORM == "kubernetes" ]
+then
+    DEPLOYMENT_FILE="$DEPLOYMENT_FILE.yaml"
+fi
+
+echo "Environment:      $ENV_NAME"
+echo "Platform:         $ENV_PLATFORM"
+echo "Deployment File:  $DEPLOYMENT_FILE"
+
+if [ $ENV_PLATFORM == "kubernetes" ]
+then
+    kubectl create -f $DEPLOYMENT_FILE
+fi

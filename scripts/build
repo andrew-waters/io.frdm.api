@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source ./.ENV
+
+echo "Building $APP_NAME..."
+
+go build ./frdm.go
+
+#echo "Built $APP_NAME. Adding it to your \$GOPATH:"

@@ -1,3 +1,9 @@
 # frdm
 
-An open source thought experiment for implementing clean (EBI), microservice based mono-repo using a multi tenanted CMS domain written in Go.
+An open source project implementing clean (EBI based), multi tenanted Content Management API (with tooling) using (mono-repo) microservices.
+
+## Grabbing dependencies
+
+`make provision`
+
+Will get all dependencies for all of your services using glide.

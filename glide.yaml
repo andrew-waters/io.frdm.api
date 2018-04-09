@@ -9,3 +9,5 @@ import:
   - bson
 - package: github.com/go-kit/kit
   version: ^0.6.0
+- package: github.com/google/jsonapi
+  version: ^1.0.0
